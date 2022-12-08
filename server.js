@@ -6,7 +6,7 @@
     var path = require('path');
     const { request } = require('http');
     const User = require('./models/Users');
-    const port = 3000;
+    const port = 80;
 
 // Configurações
     // sessão
