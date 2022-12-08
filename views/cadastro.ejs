@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="/cadastro" method="post">
+        <label for="nome">Nome</label> <br>
+        <input type="text" id="nome" name="nome" pattern="[a-zA-Z]+" required><br>
+        <label for="Usuario">Usuario</label><br>
+        <input type="text" name="usuario" required><br>
+        <label for="senha">Senha</label><br>
+        <input type="password" name="senha" pattern='[a-zA-Z0-9._+-@!]' required><br>
+        <label for="senha2">Confirme a Senha</label><br>
+        <input type="password" name="senha2"  required><br><br>
+        <input type="submit" name="cadastrar" value="cadastrar">
+    </form><br>
+
+    
+</body>
+ 
+</html>
+<!-- .{7,} -->
