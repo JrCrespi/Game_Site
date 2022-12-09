@@ -27,7 +27,7 @@
 
     // Express
         app.use(express.json());
-        app.use(express.static("views"));
+        app.use(express.static("./views"));
         app.use('/public', express.static(path.join(__dirname, 'public')));
         app.set('views', path.join(__dirname, 'views'));
 
